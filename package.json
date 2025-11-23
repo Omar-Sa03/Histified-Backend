@@ -1,0 +1,78 @@
+{
+  
+  "name": "unbreaking-news",
+  
+  "version": "1.0.0",
+  
+  "description": "",
+  
+  "main": "index.js",
+  
+  "scripts": {
+  
+    
+  "test": "echo \"Error: no test specified\" && exit 1",
+  
+    
+  "start": "node server.js",
+  
+    
+  "dev": "nodemon server.js"
+  
+  },
+  
+  "keywords": [],
+  
+  "author": "",
+  
+  "license": "ISC",
+  
+  "type": "commonjs",
+  
+  "dependencies": {
+  
+    
+  "@google-cloud/vision": "^5.3.4",
+  
+    
+  "axios": "^1.13.2",
+  
+    
+  "compromise": "^14.14.4",
+  
+    
+  "dotenv": "^17.2.3",
+  
+    
+  "exifreader": "^4.32.0",
+  
+    
+  "express": "^5.1.0",
+  
+    
+  "jimp": "^0.22.12",
+  
+    
+  "multer": "^2.0.2",
+  
+    
+  "natural": "^8.1.0",
+  
+    
+  "pdf-parse": "^1.1.1",
+  
+    
+  "sentiment": "^5.0.2",
+  
+    
+  "sharp": "^0.34.5"
+  
+  },
+  
+  "devDependencies": {
+  
+    
+  "nodemon": "^3.1.11"
+  
+  }
+}
